@@ -1,0 +1,64 @@
+body {
+  background:#eee;
+  font-family:consolas,courier,monospace;
+}
+
+.menu_list, .submenu_list {
+  list-style:none;
+  background:#333;
+  color:#888;
+  font-family:consolas,courier,monospace;
+}
+.menu_list, .submenu_list,
+.list , .sub_list{
+  display:inline-block;
+  text-align:center;
+  padding:0;
+  margin:0;
+}
+.submenu_list {
+  display:none;
+}
+.sub_list > a, .list > a,
+.list > .expand {
+  color:#888;
+  text-decoration:none;
+  display:block;
+}
+.list,.sub_list {
+  border:0;
+  border-right:0;
+  position:relative;
+  width:100px;
+}
+.list > a,.sub_list > * {
+  border:10px solid transparent;
+  padding:10px;
+}
+.list:hover > a, .list > a:focus,
+.expand:hover,.sub_list:hover> a,
+.sub_list > a:focus {
+  color:#fff;
+  border-bottom:10px solid royalblue;
+  border-top:10px solid royalblue;
+  outline:0;
+}
+.sub_list:hover> a, .sub_list > a:focus {
+  border-top:10px solid transparent;
+}
+.expand:hover{
+  cursor:pointer;
+}
+.menu_wrapper{
+  text-align:center;
+  background:#333;
+}
+
+.submenu_list {
+  position:absolute;
+  z-index:1000;
+}
+.sub_list{
+  width:auto;
+}
+

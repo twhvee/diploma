@@ -1,0 +1,183 @@
+<style>
+    body {
+  background:#eee;
+  font-family:consolas,courier,monospace;
+}
+
+
+.snip1143 {
+  font-family: 'Raleway', Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.snip1143 * {
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1143 li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0 1.5em;
+  overflow: hidden;
+}
+.snip1143 a {
+  padding: 0.3em 0;
+  color: rgba(255, 255, 255, 0.5);
+  position: relative;
+  display: inline-block;
+  letter-spacing: 1px;
+  margin: 0;
+  text-decoration: none;
+}
+.snip1143 a:before,
+.snip1143 a:after {
+  position: absolute;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1143 a:before {
+  top: 100%;
+  display: block;
+  height: 3px;
+  width: 100%;
+  content: "";
+  background-color: #c0392b;
+}
+.snip1143 a:after {
+  padding: 0.3em 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  content: attr(data-hover);
+  color: white;
+  white-space: nowrap;
+}
+.snip1143 li:hover a,
+.snip1143 .current a {
+  transform: translateY(-100%);
+}
+
+
+
+/* Demo purposes only */
+html {
+  height: 100%;
+}
+.menu {
+  background-color: #212121;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-flow: wrap;
+  margin: 0;
+  height: 100px;
+}
+
+.video_list{
+  display: flex;
+  flex-direction: row;
+  margin: 10px ;
+  justify-content: center;
+  align-items: center;
+}
+
+.video_card{
+ margin-left: 200px;
+ margin-top: 70px;
+}
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Распознавание действий</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+ <div class="menu">
+         <ul class="snip1143">
+          <li ><a href="{{ url_for('upload_form') }}"data-hover="Распознавание">Распознавание</a></li>
+          <li class="current"><a href="{{ url_for('info_page') }}" data-hover="Справка">Справка</a></li>
+        </ul>
+
+ </div>
+ <h1>Модель умеет распознавать 10 видов действий, которые представлены ниже вместе с примерами видео.</h1>
+ <h3>Вы можете загрузить видео любой высоты и ширины формата mp4. Для лучшей точности человек должен быть в полный рост на однотонном фоне. После загрузки видео выберете область кадра, в которой находится человек.</h3>
+ <div class="video_list">
+
+    <div class="video_card">
+         <h2>Мостик</h2>
+          <video  autoplay="autoplay" controls="controls" preload="preload">
+                    <source src="{{ url_for('play_ex', filename="bending.mp4") }}" type="video/mp4"></source>
+          </video>
+     </div>
+    <div class="video_card">
+          <h2>Поднятие рук</h2>
+          <video  autoplay="autoplay" controls="controls" preload="preload">
+                    <source src="{{ url_for('play_ex', filename="fontraises.mp4") }}" type="video/mp4"></source>
+          </video>
+     </div>
+   </div>
+  <div class="video_list">
+      <div class="video_card">
+          <h2>Подтягивание</h2>
+          <video  autoplay="autoplay" controls="controls" preload="preload">
+                    <source src="{{ url_for('play_ex', filename="pull.mp4") }}" type="video/mp4"></source>
+          </video>
+     </div>
+    <div class="video_card">
+          <h2>Выпады</h2>
+          <video  autoplay="autoplay" controls="controls" preload="preload">
+                    <source src="{{ url_for('play_ex', filename="lunge.mp4") }}" type="video/mp4"></source>
+          </video>
+     </div>
+    </div>
+  <div class="video_list">
+      <div class="video_card">
+          <h2>Джампинг джек</h2>
+          <video  autoplay="autoplay" controls="controls" preload="preload">
+                    <source src="{{ url_for('play_ex', filename="Jumping.mp4") }}" type="video/mp4"></source>
+          </video>
+     </div>
+    <div class="video_card">
+          <h2>Отжимания</h2>
+          <video  autoplay="autoplay" controls="controls" preload="preload">
+                    <source src="{{ url_for('play_ex', filename="push.mp4") }}" type="video/mp4"></source>
+          </video>
+     </div>
+  </div>
+  <div class="video_list">
+    <div class="video_card">
+          <h2>Пресс</h2>
+          <video  autoplay="autoplay" controls="controls" preload="preload">
+                    <source src="{{ url_for('play_ex', filename="situp.mp4") }}" type="video/mp4"></source>
+          </video>
+     </div>
+    <div class="video_card">
+          <h2>Приседания</h2>
+          <video  autoplay="autoplay" controls="controls" preload="preload">
+                    <source src="{{ url_for('play_ex', filename="squats.mp4") }}" type="video/mp4"></source>
+          </video>
+     </div>
+  </div>
+  <div class="video_list">
+    <div class="video_card">
+          <h2>Растяжка ног</h2>
+          <video  autoplay="autoplay" controls="controls" preload="preload">
+                    <source src="{{ url_for('play_ex', filename="streching.mp4") }}" type="video/mp4"></source>
+          </video>
+     </div>
+    <div class="video_card">
+          <h2>Махи ногами</h2>
+          <video  autoplay="autoplay" controls="controls" preload="preload">
+                    <source src="{{ url_for('play_ex', filename="swinging.mp4") }}" type="video/mp4"></source>
+          </video>
+     </div>
+</div>
+
+</body>

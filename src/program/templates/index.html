@@ -1,0 +1,401 @@
+<style>
+body {
+  background:#eee;
+  font-family:consolas,courier,monospace;
+}
+
+#loading{
+    align-items: center;
+    justify-content: center;
+}
+
+.load{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.snip1143 {
+  font-family: 'Raleway', Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.snip1143 * {
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1143 li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0 1.5em;
+  overflow: hidden;
+}
+.snip1143 a {
+  padding: 0.3em 0;
+  color: rgba(255, 255, 255, 0.5);
+  position: relative;
+  display: inline-block;
+  letter-spacing: 1px;
+  margin: 0;
+  text-decoration: none;
+}
+.snip1143 a:before,
+.snip1143 a:after {
+  position: absolute;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1143 a:before {
+  top: 100%;
+  display: block;
+  height: 3px;
+  width: 100%;
+  content: "";
+  background-color: #c0392b;
+}
+.snip1143 a:after {
+  padding: 0.3em 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  content: attr(data-hover);
+  color: white;
+  white-space: nowrap;
+}
+.snip1143 li:hover a,
+.snip1143 .current a {
+  transform: translateY(-100%);
+}
+
+
+
+/* Demo purposes only */
+html {
+  height: 100%;
+}
+.menu {
+  background-color: #212121;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-flow: wrap;
+  margin: 0;
+  height: 100px;
+}
+
+.container{
+background-color:#1E2832;
+padding-bottom:10px;
+
+margin-top:50px;
+border-radius:20px;
+}
+.center{
+text-align:center;
+}
+#top{
+margin-top:20px;
+}
+.btn-container{
+background:#fff;
+border-radius:5px;
+padding-bottom:20px;
+margin-bottom:20px;
+}
+.white{
+padding-top: 15px;
+color:white;
+}
+.imgupload{
+color:#1E2832;
+padding-top:40px;
+font-size:7em;
+}
+#namefile{
+color:black;
+}
+h4>strong{
+color:#ff3f3f
+}
+.btn-primary{
+    border-color: #ff3f3f !important;
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #c0392b!important;
+    border-color: #c0392b !important;
+    width : 120px;
+    height: 40px;
+}
+
+.btn-primary:hover:not(:active) {
+  background: #6e2118;
+}
+.btn-primary:active {
+  top: 1px;
+  background: #6e2118;
+  box-shadow:
+   0 0 1px rgba(0,0,0,.5) inset,
+   0 2px 3px rgba(0,0,0,.5) inset,
+   0 1px 1px rgba(255,255,255,.1);
+}
+
+/*these two are set to not display at start*/
+.imgupload.ok{
+display:none;
+color:green;
+}
+.imgupload.stop{
+display:none;
+color:red;
+}
+
+
+/*this sets the actual file input to overlay our button*/
+#fileup{
+opacity: 0;
+-moz-opacity: 0;
+filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+width:200px;
+cursor: pointer;
+position:absolute;
+left: 50%;
+transform: translateX(-50%);
+bottom: 40px;
+height: 50px;
+}
+
+/*switch between input and not active input*/
+#submitbtn{
+  padding:5px 50px;
+  display:none;
+}
+#fakebtn{
+  padding:5px 40px;
+}
+
+
+
+#sign{
+	color:#1E2832;
+	position:fixed;
+	right:10px;
+	bottom:10px;
+	text-shadow:0px 0px 0px #1E2832;
+	transition:all.3s;
+}
+#sign:hover{
+	color:#1E2832;
+	text-shadow:0px 0px 5px #1E2832;
+}
+
+.container{
+    width: 1000px;
+    margin:0 auto;
+}
+
+.form_text{
+    height : 100px;
+}
+
+.button28 {
+  position: relative;
+  display: inline-block;
+  font-size: 90%;
+  font-weight: 700;
+  color: rgb(209,209,217);
+  text-decoration: none;
+  text-shadow: 0 -1px 2px rgba(0,0,0,.2);
+  padding: .5em 3em;
+  outline: none;
+  border-radius: 3px;
+  background: linear-gradient(rgb(110,112,120), rgb(81,81,86)) rgb(110,112,120);
+  box-shadow:
+   0 1px rgba(255,255,255,.2) inset,
+   0 3px 5px rgba(0,1,6,.5),
+   0 0 1px 1px rgba(0,1,6,.2);
+  transition: .2s ease-in-out;
+}
+.button28:hover:not(:active) {
+  background: linear-gradient(rgb(126,126,134), rgb(70,71,76)) rgb(126,126,134);
+}
+.button28:active {
+  top: 1px;
+  background: linear-gradient(rgb(76,77,82), rgb(56,57,62)) rgb(76,77,82);
+  box-shadow:
+   0 0 1px rgba(0,0,0,.5) inset,
+   0 2px 3px rgba(0,0,0,.5) inset,
+   0 1px 1px rgba(255,255,255,.1);
+}
+svg {
+padding-top: 50px;
+}
+
+
+
+
+.input-file {
+	position: relative;
+	display: inline-block;
+}
+.input-file-btn {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	outline: none;
+	text-decoration: none;
+	font-size: 14px;
+	vertical-align: middle;
+	color: rgb(255 255 255);
+	text-align: center;
+	border-radius: 4px;
+	background-color: #c0392b;
+	line-height: 22px;
+	height: 40px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	border: none;
+	margin: 0;
+	transition: background-color 0.2s;
+}
+.input-file-text {
+	padding: 0 10px;
+	line-height: 40px;
+	display: inline-block;
+}
+.input-file input[type=file] {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+	display: block;
+	width: 0;
+	height: 0;
+}
+
+/* Focus */
+.input-file input[type=file]:focus + .input-file-btn {
+	box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+/* Hover/active */
+.input-file:hover .input-file-btn {
+	background-color: #6e2118;
+}
+.input-file:active .input-file-btn {
+	background-color: #6e2118;
+}
+
+/* Disabled */
+.input-file input[type=file]:disabled + .input-file-btn {
+	background-color: #eee;
+}
+
+.result {
+margin:0 auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.videores{
+    display: inline-block;
+}
+
+video {
+ margin-left: 50px;
+}
+
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Распознавание действий</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+</head>
+<body>
+    <div class="menu">
+         <ul class="snip1143">
+          <li class="current"><a href="#" data-hover="Распознавание">Распознавание</a></li>
+          <li><a href="{{ url_for('info_page') }}" data-hover="Справка">Справка</a></li>
+        </ul>
+    </div>
+
+    <p>
+        {% with messages = get_flashed_messages() %}
+          {% if messages %}
+            <ul>
+            {% for message in messages %}
+              <li>{{ message }}</li>
+            {% endfor %}
+            </ul>
+          {% endif %}
+        {% endwith %}
+    </p>
+    <div id="loading" class="load" style="display:none; margin: 0 auto;"><img src="https://www.worldskate.org/templates/ifrit/images/loadmore.gif" alt="" /></div>
+    {% if filename %}
+        <div class="result">
+            <h1>Видео успешно загружено и распознано!</h1>
+            <div class="videores">
+              <video  autoplay="autoplay" controls="controls" preload="preload">
+                <source src="{{ url_for('display_video', filename=filename[0]) }}" type="video/mp4"></source>
+            </video>
+             <video  autoplay="autoplay" controls="controls" preload="preload">
+                <source src="{{ url_for('video_play', filename=filename[1]) }}" type="video/mp4"></source>
+            </video>
+            </div>
+            <h1>Вид действия: {{nameact}}</h1>
+        </div>
+    {% endif %}
+
+
+
+ <div class="container center">
+	<div class="row">
+		<div class="col-md-12">
+            <div class="form_text">
+                <h1 class="white">Выберите видео</h1>
+			    <p class="white">Поддерживаемый формат видео: mp4.</p>
+            </div>
+		</div>
+	</div>
+
+    <form method="post" action="/" enctype="multipart/form-data"  accept=".mp4, .avi">
+        <dl>
+            <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 center">
+                    <div class="btn-container">
+                        <h1>
+                        <svg height="120px" width="120px" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#1E2832"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <style type="text/css"> .st0{fill:#1E2832;} </style> <g> <path class="st0" d="M378.409,0H208.294h-13.175l-9.315,9.314L57.016,138.102l-9.314,9.314v13.176v265.513 c0,47.361,38.528,85.896,85.896,85.896h244.811c47.36,0,85.888-38.535,85.888-85.896V85.895C464.298,38.528,425.769,0,378.409,0z M432.493,426.104c0,29.877-24.214,54.092-54.084,54.092H133.598c-29.877,0-54.092-24.215-54.092-54.092V160.591h83.717 c24.885,0,45.07-20.179,45.07-45.07V31.804h170.116c29.87,0,54.084,24.214,54.084,54.091V426.104z"></path> <path class="st0" d="M326.573,212.783h-13.434v13.957H198.868v-13.957h-13.434h-13.448h-16.799v158.56h43.681v-13.958h114.271 v13.958h43.681v-158.56h-16.799H326.573z M185.434,357.756h-13.448v-21.149h13.448V357.756z M185.434,321.518h-13.448v-21.149 h13.448V321.518z M185.434,285.273h-13.448V264.13h13.448V285.273z M185.434,249.035h-13.448v-21.149h13.448V249.035z M313.139,341.912H198.868v-99.699h114.271V341.912z M340.021,357.756h-13.448v-21.149h13.448V357.756z M340.021,321.518h-13.448 v-21.149h13.448V321.518z M340.021,285.273h-13.448V264.13h13.448V285.273z M340.021,249.035h-13.448v-21.149h13.448V249.035z"></path> </g> </g></svg>
+                        </h1>
+                         <label class="input-file">
+                            <input  type="file" name="file" autocomplete="off" required>
+                            <span class="input-file-btn">Выберите файл</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+			<div class="col-md-12">
+                 <p>
+                    <input onclick="$('#loading').show();" type="submit" class="button28"  id="fakebtn" value="Загрузить видео">
+                </p>
+			</div>
+		</div>
+        </div>
+
+        </dl>
+
+
+    </form>
+ </div>
+</body>

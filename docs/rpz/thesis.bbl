@@ -1,0 +1,888 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{med}{article}{}
+      \name{author}{3}{}{%
+        {{hash=37d321c08b5df7a7fa7b3928a08c4226}{%
+           family={Тарантова},
+           familyi={Т\bibinitperiod},
+           given={Е.\bibnamedelimi С},
+           giveni={Е\bibinitperiod\bibinitdelim С\bibinitperiod}}}%
+        {{hash=cf29fcbef568417facab721d56f4b83c}{%
+           family={Макаров},
+           familyi={М\bibinitperiod},
+           given={К.\bibnamedelimi В},
+           giveni={К\bibinitperiod\bibinitdelim В\bibinitperiod}}}%
+        {{hash=808b5f4f1044a9a98199ac4212bbf8cf}{%
+           family={Орлов},
+           familyi={О\bibinitperiod},
+           given={А.\bibnamedelimi А},
+           giveni={А\bibinitperiod\bibinitdelim А\bibinitperiod}}}%
+      }
+      \strng{namehash}{a94755dd69d48464a6c06bdc240bfe5b}
+      \strng{fullhash}{a94755dd69d48464a6c06bdc240bfe5b}
+      \strng{bibnamehash}{a94755dd69d48464a6c06bdc240bfe5b}
+      \strng{authorbibnamehash}{a94755dd69d48464a6c06bdc240bfe5b}
+      \strng{authornamehash}{a94755dd69d48464a6c06bdc240bfe5b}
+      \strng{authorfullhash}{a94755dd69d48464a6c06bdc240bfe5b}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Проблемы информационных технологий}
+      \field{title}{Выбор признаков для распознавания физической активности человека в рамках телереабилитационной системы}
+      \field{year}{2019}
+      \field{number}{2}
+      \range{number}{1}
+      \field{pages}{49\bibrangedash 59}
+      \range{pages}{11}
+    \endentry
+    \entry{safe}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6534ca8d8741b4879130ee3ce18fc6f5}{%
+           family={Уздяев},
+           familyi={У\bibinitperiod},
+           given={М.\bibnamedelimi Ю.},
+           giveni={М\bibinitperiod\bibinitdelim Ю\bibinitperiod}}}%
+      }
+      \strng{namehash}{6534ca8d8741b4879130ee3ce18fc6f5}
+      \strng{fullhash}{6534ca8d8741b4879130ee3ce18fc6f5}
+      \strng{bibnamehash}{6534ca8d8741b4879130ee3ce18fc6f5}
+      \strng{authorbibnamehash}{6534ca8d8741b4879130ee3ce18fc6f5}
+      \strng{authornamehash}{6534ca8d8741b4879130ee3ce18fc6f5}
+      \strng{authorfullhash}{6534ca8d8741b4879130ee3ce18fc6f5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Известия Тульского государственного университета. Технические науки.}
+      \field{title}{Распознавание агрессивных действий с использованием нейросетевых архитектур 3D-CNN}
+      \field{year}{2020}
+    \endentry
+    \entry{ex}{article}{}
+      \name{author}{3}{}{%
+        {{hash=aed02ee3be7e9279e956d9ceb2180711}{%
+           family={Егорова},
+           familyi={Е\bibinitperiod},
+           given={Ю.\bibnamedelimi А.},
+           giveni={Ю\bibinitperiod\bibinitdelim А\bibinitperiod}}}%
+        {{hash=d4b39d7aee4fe00624cdd8c084a477a4}{%
+           family={Захарова},
+           familyi={З\bibinitperiod},
+           given={И.\bibnamedelimi Г.},
+           giveni={И\bibinitperiod\bibinitdelim Г\bibinitperiod}}}%
+        {{hash=450282b8456cd7fc0901817b80c4c771}{%
+           family={Гасанов},
+           familyi={Г\bibinitperiod},
+           given={А.\bibnamedelimi Р},
+           giveni={А\bibinitperiod\bibinitdelim Р\bibinitperiod}}}%
+      }
+      \strng{namehash}{9ccf79ff3ba6634a4734528e99678d13}
+      \strng{fullhash}{9ccf79ff3ba6634a4734528e99678d13}
+      \strng{bibnamehash}{9ccf79ff3ba6634a4734528e99678d13}
+      \strng{authorbibnamehash}{9ccf79ff3ba6634a4734528e99678d13}
+      \strng{authornamehash}{9ccf79ff3ba6634a4734528e99678d13}
+      \strng{authorfullhash}{9ccf79ff3ba6634a4734528e99678d13}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Информационные технологии и системы}
+      \field{title}{Стохастический метод распознавания действий человека на базе скелетной модели}
+      \field{year}{2020}
+      \field{pages}{96\bibrangedash 102}
+      \range{pages}{7}
+    \endentry
+    \entry{baes1}{article}{}
+      \name{author}{2}{}{%
+        {{hash=14fd1b163085eeff5b0a37f19f3c3707}{%
+           family={Черезов},
+           familyi={Ч\bibinitperiod},
+           given={Д.\bibnamedelimi С.},
+           giveni={Д\bibinitperiod\bibinitdelim С\bibinitperiod}}}%
+        {{hash=162155066b6f6feaa67d7774030018d7}{%
+           family={Тюкачев},
+           familyi={Т\bibinitperiod},
+           given={Н.\bibnamedelimi А.},
+           giveni={Н\bibinitperiod\bibinitdelim А\bibinitperiod}}}%
+      }
+      \strng{namehash}{bc23d70f1af2dde7c6cf2a0f9d422866}
+      \strng{fullhash}{bc23d70f1af2dde7c6cf2a0f9d422866}
+      \strng{bibnamehash}{bc23d70f1af2dde7c6cf2a0f9d422866}
+      \strng{authorbibnamehash}{bc23d70f1af2dde7c6cf2a0f9d422866}
+      \strng{authornamehash}{bc23d70f1af2dde7c6cf2a0f9d422866}
+      \strng{authorfullhash}{bc23d70f1af2dde7c6cf2a0f9d422866}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Вестник воронежского государственного университета. Серия: системный анализ и информационные технологии}
+      \field{title}{Обзор основных методов классификации и кластеризации данных}
+      \field{year}{2009}
+      \field{pages}{25\bibrangedash 29}
+      \range{pages}{5}
+    \endentry
+    \entry{baes2}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6a00d2d6328e714fa76f0d6e89612bcc}{%
+           family={Батура},
+           familyi={Б\bibinitperiod},
+           given={Т.\bibnamedelimi В.},
+           giveni={Т\bibinitperiod\bibinitdelim В\bibinitperiod}}}%
+      }
+      \strng{namehash}{6a00d2d6328e714fa76f0d6e89612bcc}
+      \strng{fullhash}{6a00d2d6328e714fa76f0d6e89612bcc}
+      \strng{bibnamehash}{6a00d2d6328e714fa76f0d6e89612bcc}
+      \strng{authorbibnamehash}{6a00d2d6328e714fa76f0d6e89612bcc}
+      \strng{authornamehash}{6a00d2d6328e714fa76f0d6e89612bcc}
+      \strng{authorfullhash}{6a00d2d6328e714fa76f0d6e89612bcc}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Программные продукты и системы}
+      \field{title}{Методы автоматической классификации}
+      \field{year}{2017}
+      \field{number}{1}
+      \range{number}{1}
+    \endentry
+    \entry{vec}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=2d2ca8e4d2d93ebeecaaae748d0565a0}{%
+           family={Дмитриев},
+           familyi={Д\bibinitperiod},
+           given={E.\bibnamedelimi A.},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{2d2ca8e4d2d93ebeecaaae748d0565a0}
+      \strng{fullhash}{2d2ca8e4d2d93ebeecaaae748d0565a0}
+      \strng{bibnamehash}{2d2ca8e4d2d93ebeecaaae748d0565a0}
+      \strng{authorbibnamehash}{2d2ca8e4d2d93ebeecaaae748d0565a0}
+      \strng{authornamehash}{2d2ca8e4d2d93ebeecaaae748d0565a0}
+      \strng{authorfullhash}{2d2ca8e4d2d93ebeecaaae748d0565a0}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Режим доступа: \url{https://interactive-plus.ru/e-articles/389/Action389-462813.pdf} (Дата обращения: 10.04.2023)}
+      \field{title}{Метод опорных векторов [Электронный ресурс]}
+    \endentry
+    \entry{ksosed}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=2353b293e413148293d5f33ad00579fb}{%
+           family={Виноградова},
+           familyi={В\bibinitperiod},
+           given={A.\bibnamedelimi A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{2353b293e413148293d5f33ad00579fb}
+      \strng{fullhash}{2353b293e413148293d5f33ad00579fb}
+      \strng{bibnamehash}{2353b293e413148293d5f33ad00579fb}
+      \strng{authorbibnamehash}{2353b293e413148293d5f33ad00579fb}
+      \strng{authornamehash}{2353b293e413148293d5f33ad00579fb}
+      \strng{authorfullhash}{2353b293e413148293d5f33ad00579fb}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Режим доступа: \url{https://math.spbu.ru/SD_AIS/documents/2015-12-341/2015-12-b-05.pdf} (Дата обращения: 10.04.2023)}
+      \field{title}{Обработка и анализ данных для распознавания человеческих действий [Электронный ресурс]}
+    \endentry
+    \entry{tree2}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=c593cca6914885c25b1fc36a14406b16}{%
+           family={Чернов},
+           familyi={Ч\bibinitperiod},
+           given={И.\bibnamedelimi А.},
+           giveni={И\bibinitperiod\bibinitdelim А\bibinitperiod}}}%
+        {{hash=04dde5d5c9e3c201809083b0b56fb66f}{%
+           family={Федяев},
+           familyi={Ф\bibinitperiod},
+           given={О.\bibnamedelimi И.},
+           giveni={О\bibinitperiod\bibinitdelim И\bibinitperiod}}}%
+      }
+      \strng{namehash}{40922f4c7eb0e53468e40b413687df06}
+      \strng{fullhash}{40922f4c7eb0e53468e40b413687df06}
+      \strng{bibnamehash}{40922f4c7eb0e53468e40b413687df06}
+      \strng{authorbibnamehash}{40922f4c7eb0e53468e40b413687df06}
+      \strng{authornamehash}{40922f4c7eb0e53468e40b413687df06}
+      \strng{authorfullhash}{40922f4c7eb0e53468e40b413687df06}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Режим доступа: \url{https://masters.donntu.ru/2006/fvti/ichernov/library/my_donetsk06.htm} (Дата обращения: 10.04.2023)}
+      \field{title}{Алгоритм построения деревьев решений для системы автоматизированного извлечения знаний [Электронный ресурс]}
+    \endentry
+    \entry{randomForest}{article}{}
+      \name{author}{2}{}{%
+        {{hash=23135fbbcc58467e7e0c0801eec7c51d}{%
+           family={Пальмов},
+           familyi={П\bibinitperiod},
+           given={С.\bibnamedelimi В.},
+           giveni={С\bibinitperiod\bibinitdelim В\bibinitperiod}}}%
+        {{hash=e94aadda711cc7e778ae6c1bb6b36221}{%
+           family={Денискова},
+           familyi={Д\bibinitperiod},
+           given={А.\bibnamedelimi О.},
+           giveni={А\bibinitperiod\bibinitdelim О\bibinitperiod}}}%
+      }
+      \strng{namehash}{e356889d14c56531a08f01b76faa486b}
+      \strng{fullhash}{e356889d14c56531a08f01b76faa486b}
+      \strng{bibnamehash}{e356889d14c56531a08f01b76faa486b}
+      \strng{authorbibnamehash}{e356889d14c56531a08f01b76faa486b}
+      \strng{authornamehash}{e356889d14c56531a08f01b76faa486b}
+      \strng{authorfullhash}{e356889d14c56531a08f01b76faa486b}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Наука сегодня: теоритические и практические аспекты}
+      \field{title}{Случайный лес: основные особенности}
+      \field{year}{2017}
+      \field{pages}{51\bibrangedash 53}
+      \range{pages}{3}
+    \endentry
+    \entry{deck}{article}{}
+      \name{author}{3}{}{%
+        {{hash=60674ff6989e98861cfc88f4a4ffafc5}{%
+           family={Приступа},
+           familyi={П\bibinitperiod},
+           given={Андрей\bibnamedelima Викторович},
+           giveni={А\bibinitperiod\bibinitdelim В\bibinitperiod}}}%
+        {{hash=bc66ea6ab8e3eb1b60d8d3ac7afb4766}{%
+           family={Лапатин},
+           familyi={Л\bibinitperiod},
+           given={Иван\bibnamedelima Леонидович},
+           giveni={И\bibinitperiod\bibinitdelim Л\bibinitperiod}}}%
+        {{hash=337f788b28d33f33a6f6a9fbfb036974}{%
+           family={Замятин},
+           familyi={З\bibinitperiod},
+           given={Александр\bibnamedelima Владимирович},
+           giveni={А\bibinitperiod\bibinitdelim В\bibinitperiod}}}%
+      }
+      \strng{namehash}{96c4751df4d6af0fc680aefa333cf2b6}
+      \strng{fullhash}{96c4751df4d6af0fc680aefa333cf2b6}
+      \strng{bibnamehash}{96c4751df4d6af0fc680aefa333cf2b6}
+      \strng{authorbibnamehash}{96c4751df4d6af0fc680aefa333cf2b6}
+      \strng{authornamehash}{96c4751df4d6af0fc680aefa333cf2b6}
+      \strng{authorfullhash}{96c4751df4d6af0fc680aefa333cf2b6}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Вестник Томского государственного университета. Управление, вычислительная техника и информатика}
+      \field{title}{Применение глобальных дескрипторов формы для идентификации 3D объектов}
+      \field{year}{2019}
+      \field{number}{48}
+      \range{number}{1}
+      \field{pages}{57\bibrangedash 66}
+      \range{pages}{10}
+    \endentry
+    \entry{sift1}{article}{}
+      \name{author}{2}{}{%
+        {{hash=828145fac80be15a45a37f2858a569ad}{%
+           family={Финогеев},
+           familyi={Ф\bibinitperiod},
+           given={АГ},
+           giveni={А\bibinitperiod}}}%
+        {{hash=c451ed62ab5ea1aee559f248c5aad7b0}{%
+           family={Четвергова},
+           familyi={Ч\bibinitperiod},
+           given={МВ},
+           giveni={М\bibinitperiod}}}%
+      }
+      \strng{namehash}{9ed9238c229eef25b4c3a02120beaad6}
+      \strng{fullhash}{9ed9238c229eef25b4c3a02120beaad6}
+      \strng{bibnamehash}{9ed9238c229eef25b4c3a02120beaad6}
+      \strng{authorbibnamehash}{9ed9238c229eef25b4c3a02120beaad6}
+      \strng{authornamehash}{9ed9238c229eef25b4c3a02120beaad6}
+      \strng{authorfullhash}{9ed9238c229eef25b4c3a02120beaad6}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Известия Волгоградского государственного технического университета}
+      \field{title}{Разработка и исследование методики распознавания изображений для систем расширенной реальности}
+      \field{year}{2012}
+      \field{number}{15}
+      \range{number}{1}
+      \field{pages}{130\bibrangedash 136}
+      \range{pages}{7}
+    \endentry
+    \entry{sift2}{article}{}
+      \name{author}{2}{}{%
+        {{hash=ff6836695f51f430f5ab2cfca90e8c31}{%
+           family={Луцив},
+           familyi={Л\bibinitperiod},
+           given={ВР},
+           giveni={В\bibinitperiod}}}%
+        {{hash=19e6b01334ccfb3f8cf62b472fdbdd42}{%
+           family={Малашин},
+           familyi={М\bibinitperiod},
+           given={РО},
+           giveni={Р\bibinitperiod}}}%
+      }
+      \strng{namehash}{7125cece004909fe964f1f8423957def}
+      \strng{fullhash}{7125cece004909fe964f1f8423957def}
+      \strng{bibnamehash}{7125cece004909fe964f1f8423957def}
+      \strng{authorbibnamehash}{7125cece004909fe964f1f8423957def}
+      \strng{authornamehash}{7125cece004909fe964f1f8423957def}
+      \strng{authorfullhash}{7125cece004909fe964f1f8423957def}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Оптический журнал}
+      \field{title}{Объектно-независимый структурный анализ изображений: история и современные подходы}
+      \field{year}{2014}
+      \field{number}{11}
+      \range{number}{1}
+      \field{pages}{31\bibrangedash 44}
+      \range{pages}{14}
+    \endentry
+    \entry{siftsurf}{article}{}
+      \name{author}{1}{}{%
+        {{hash=53a3f9d1d0a86faf4b68a86c696bb508}{%
+           family={Пименова},
+           familyi={П\bibinitperiod},
+           given={Мария\bibnamedelima Борисовна},
+           giveni={М\bibinitperiod\bibinitdelim Б\bibinitperiod}}}%
+      }
+      \strng{namehash}{53a3f9d1d0a86faf4b68a86c696bb508}
+      \strng{fullhash}{53a3f9d1d0a86faf4b68a86c696bb508}
+      \strng{bibnamehash}{53a3f9d1d0a86faf4b68a86c696bb508}
+      \strng{authorbibnamehash}{53a3f9d1d0a86faf4b68a86c696bb508}
+      \strng{authornamehash}{53a3f9d1d0a86faf4b68a86c696bb508}
+      \strng{authorfullhash}{53a3f9d1d0a86faf4b68a86c696bb508}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Политехнический молодежный журнал}
+      \field{title}{Распознавание характерных объектов на местности с использованием метода SURF}
+      \field{year}{2019}
+      \field{number}{10}
+      \range{number}{1}
+      \field{pages}{3}
+      \range{pages}{1}
+    \endentry
+    \entry{hog1}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ae7fec2ce07542915093e806764ee29e}{%
+           family={Панкин},
+           familyi={П\bibinitperiod},
+           given={АВ},
+           giveni={А\bibinitperiod}}}%
+      }
+      \strng{namehash}{ae7fec2ce07542915093e806764ee29e}
+      \strng{fullhash}{ae7fec2ce07542915093e806764ee29e}
+      \strng{bibnamehash}{ae7fec2ce07542915093e806764ee29e}
+      \strng{authorbibnamehash}{ae7fec2ce07542915093e806764ee29e}
+      \strng{authornamehash}{ae7fec2ce07542915093e806764ee29e}
+      \strng{authorfullhash}{ae7fec2ce07542915093e806764ee29e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Известия высших учебных заведений. Геодезия и аэрофотосъемка}
+      \field{title}{Обзор и классификация опубликованных методов детектирования человека}
+      \field{year}{2019}
+      \field{number}{4}
+      \range{number}{1}
+      \field{pages}{463\bibrangedash 475}
+      \range{pages}{13}
+    \endentry
+    \entry{hog2}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=b9d26487bef2401a6e9329f6cdde96f6}{%
+           family={Калиберда},
+           familyi={К\bibinitperiod},
+           given={ЮЕ},
+           giveni={Ю\bibinitperiod}}}%
+      }
+      \strng{namehash}{b9d26487bef2401a6e9329f6cdde96f6}
+      \strng{fullhash}{b9d26487bef2401a6e9329f6cdde96f6}
+      \strng{bibnamehash}{b9d26487bef2401a6e9329f6cdde96f6}
+      \strng{authorbibnamehash}{b9d26487bef2401a6e9329f6cdde96f6}
+      \strng{authornamehash}{b9d26487bef2401a6e9329f6cdde96f6}
+      \strng{authorfullhash}{b9d26487bef2401a6e9329f6cdde96f6}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Системы управления, информационные технологии и математическое моделирование}
+      \field{title}{Применение метода Histogram of oriented gradients and support vector machines для реализации алгоритма распознавания рукописных цифр}
+      \field{year}{2019}
+      \field{pages}{55\bibrangedash 60}
+      \range{pages}{6}
+    \endentry
+    \entry{teorytime}{article}{}
+      \name{author}{3}{}{%
+        {{hash=4f1bc321a7f260d8b69b861eff44f4d8}{%
+           family={Азаренко},
+           familyi={А\bibinitperiod},
+           given={Константин\bibnamedelima Алекандрович},
+           giveni={К\bibinitperiod\bibinitdelim А\bibinitperiod}}}%
+        {{hash=f341885c84a97a60d3724e19c33ad206}{%
+           family={Ньейн},
+           familyi={Н\bibinitperiod},
+           given={Каунг\bibnamedelima Мьят},
+           giveni={К\bibinitperiod\bibinitdelim М\bibinitperiod}}}%
+        {{hash=1162d30ebaf1ca852a4ca2be0f95cb63}{%
+           family={Белов},
+           familyi={Б\bibinitperiod},
+           given={Юрий\bibnamedelima Сергеевич},
+           giveni={Ю\bibinitperiod\bibinitdelim С\bibinitperiod}}}%
+      }
+      \strng{namehash}{cfa5549d880de88e856f0ee756ca84a1}
+      \strng{fullhash}{cfa5549d880de88e856f0ee756ca84a1}
+      \strng{bibnamehash}{cfa5549d880de88e856f0ee756ca84a1}
+      \strng{authorbibnamehash}{cfa5549d880de88e856f0ee756ca84a1}
+      \strng{authornamehash}{cfa5549d880de88e856f0ee756ca84a1}
+      \strng{authorfullhash}{cfa5549d880de88e856f0ee756ca84a1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{E-Scio}
+      \field{title}{Обзор методов для распознавания действий человека}
+      \field{year}{2019}
+      \field{number}{5 (32)}
+      \range{number}{-1}
+      \field{pages}{613\bibrangedash 624}
+      \range{pages}{12}
+    \endentry
+    \entry{time1}{article}{}
+      \name{author}{3}{}{%
+        {{hash=f9d8ebbad3b670329076112872206c90}{%
+           family={Oneata},
+           familyi={O\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod}}}%
+        {{hash=136603d7485bdd32f40774759d2e4a2d}{%
+           family={Revaud},
+           familyi={R\bibinitperiod},
+           given={Jerome},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6db399bb4fce2fb790b103539429f56c}{%
+           family={Verbeek},
+           familyi={V\bibinitperiod},
+           given={Jakob},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{60e07e518cc809940eea3defc38b943b}
+      \strng{fullhash}{60e07e518cc809940eea3defc38b943b}
+      \strng{bibnamehash}{60e07e518cc809940eea3defc38b943b}
+      \strng{authorbibnamehash}{60e07e518cc809940eea3defc38b943b}
+      \strng{authornamehash}{60e07e518cc809940eea3defc38b943b}
+      \strng{authorfullhash}{60e07e518cc809940eea3defc38b943b}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computer Vision – ECCV 2014}
+      \field{title}{Spatio-temporal object detection proposals}
+      \field{year}{2014}
+      \field{pages}{737\bibrangedash 752}
+      \range{pages}{16}
+    \endentry
+    \entry{time3}{article}{}
+      \name{author}{3}{}{%
+        {{hash=570032ed0e8ff7386c18881cba938d61}{%
+           family={Soomro},
+           familyi={S\bibinitperiod},
+           given={Khurram},
+           giveni={K\bibinitperiod}}}%
+        {{hash=2e94cdf0b16229d7fe1c380be45a0f8f}{%
+           family={Idrees},
+           familyi={I\bibinitperiod},
+           given={Haroon},
+           giveni={H\bibinitperiod}}}%
+        {{hash=c75751f493070716733608d20f74e3af}{%
+           family={Shah},
+           familyi={S\bibinitperiod},
+           given={Mubarak},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{7d2619df06ec803e171952b3b853834d}
+      \strng{fullhash}{7d2619df06ec803e171952b3b853834d}
+      \strng{bibnamehash}{7d2619df06ec803e171952b3b853834d}
+      \strng{authorbibnamehash}{7d2619df06ec803e171952b3b853834d}
+      \strng{authornamehash}{7d2619df06ec803e171952b3b853834d}
+      \strng{authorfullhash}{7d2619df06ec803e171952b3b853834d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2015 IEEE International Conference on Computer Vision (ICCV)}
+      \field{title}{Action localization in videos through Context Walk}
+      \field{year}{2017}
+    \endentry
+    \entry{time4}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=570032ed0e8ff7386c18881cba938d61}{%
+           family={Soomro},
+           familyi={S\bibinitperiod},
+           given={Khurram},
+           giveni={K\bibinitperiod}}}%
+        {{hash=c75751f493070716733608d20f74e3af}{%
+           family={Shah},
+           familyi={S\bibinitperiod},
+           given={Mubarak},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{10bf190a65da061ac2df6da878ec1ef2}
+      \strng{fullhash}{10bf190a65da061ac2df6da878ec1ef2}
+      \strng{bibnamehash}{10bf190a65da061ac2df6da878ec1ef2}
+      \strng{authorbibnamehash}{10bf190a65da061ac2df6da878ec1ef2}
+      \strng{authornamehash}{10bf190a65da061ac2df6da878ec1ef2}
+      \strng{authorfullhash}{10bf190a65da061ac2df6da878ec1ef2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017 IEEE International Conference on Computer Vision (ICCV)}
+      \field{title}{Unsupervised Action Discovery and Localization in Videos}
+      \field{year}{2017}
+      \field{pages}{696\bibrangedash 705}
+      \range{pages}{10}
+    \endentry
+    \entry{stox1}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e6d0f2ecfffadbdff42bc0328b1d2935}{%
+           family={Зеленский},
+           familyi={З\bibinitperiod},
+           given={Александр\bibnamedelima Александрович},
+           giveni={А\bibinitperiod\bibinitdelim А\bibinitperiod}}}%
+        {{hash=b1893a9b80590d0001768a6963f093bd}{%
+           family={Письменскова},
+           familyi={П\bibinitperiod},
+           given={Марина\bibnamedelima Михайловна},
+           giveni={М\bibinitperiod\bibinitdelim М\bibinitperiod}}}%
+      }
+      \strng{namehash}{2527ae9641ea26bc2167c01e28060a5c}
+      \strng{fullhash}{2527ae9641ea26bc2167c01e28060a5c}
+      \strng{bibnamehash}{2527ae9641ea26bc2167c01e28060a5c}
+      \strng{authorbibnamehash}{2527ae9641ea26bc2167c01e28060a5c}
+      \strng{authornamehash}{2527ae9641ea26bc2167c01e28060a5c}
+      \strng{authorfullhash}{2527ae9641ea26bc2167c01e28060a5c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Вестник МГТУ Станкин}
+      \field{title}{Метод распознавания действий человека на сложноструктурированных изображениях и фоне в виде стохастических текстур}
+      \field{year}{2018}
+      \field{number}{3}
+      \range{number}{1}
+      \field{pages}{116\bibrangedash 120}
+      \range{pages}{5}
+    \endentry
+    \entry{stox2}{article}{}
+      \name{author}{2}{}{%
+        {{hash=78bf3b456abd50cbb851bfc2dc043acf}{%
+           family={Tahir},
+           familyi={T\bibinitperiod},
+           given={Sheikh},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d755a6f3a8337c377b7ded4413eaa46e}{%
+           family={Dogar},
+           familyi={D\bibinitperiod},
+           given={Abdul},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{c5362a96a1ed385dba1c626bc5e0b114}
+      \strng{fullhash}{c5362a96a1ed385dba1c626bc5e0b114}
+      \strng{bibnamehash}{c5362a96a1ed385dba1c626bc5e0b114}
+      \strng{authorbibnamehash}{c5362a96a1ed385dba1c626bc5e0b114}
+      \strng{authornamehash}{c5362a96a1ed385dba1c626bc5e0b114}
+      \strng{authorfullhash}{c5362a96a1ed385dba1c626bc5e0b114}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sensors}
+      \field{title}{Stochastic Recognition of Human Physical Activities via Augmented Feature Descriptors and Random Forest Model}
+      \field{year}{2022}
+      \field{pages}{6632}
+      \range{pages}{1}
+    \endentry
+    \entry{rule1}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=78075dc8b429fdb5a9a30b72710b5844}{%
+           family={Morariu},
+           familyi={M\bibinitperiod},
+           given={Vlad\bibnamedelima I.},
+           giveni={V\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=dcd7f4d5fae52e84cdfcfb7809b2d5a2}{%
+           family={Davis},
+           familyi={D\bibinitperiod},
+           given={Larry\bibnamedelima S.},
+           giveni={L\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{6b043ce1de7f5ab4039d7574e9e78d75}
+      \strng{fullhash}{6b043ce1de7f5ab4039d7574e9e78d75}
+      \strng{bibnamehash}{6b043ce1de7f5ab4039d7574e9e78d75}
+      \strng{authorbibnamehash}{6b043ce1de7f5ab4039d7574e9e78d75}
+      \strng{authornamehash}{6b043ce1de7f5ab4039d7574e9e78d75}
+      \strng{authorfullhash}{6b043ce1de7f5ab4039d7574e9e78d75}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{CVPR}
+      \field{title}{Multi-agent event recognition in structured scenarios}
+      \field{year}{2011}
+      \field{pages}{3289\bibrangedash 3296}
+      \range{pages}{8}
+    \endentry
+    \entry{rule2}{article}{}
+      \name{author}{2}{}{%
+        {{hash=982e1ad5dcc472af8276c97ae07b074a}{%
+           family={Jia},
+           familyi={J\bibinitperiod},
+           given={Hairui},
+           giveni={H\bibinitperiod}}}%
+        {{hash=81f6b58b67f1db7c5ff0f1556b86dc4b}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Shuwei},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{22f4a51b64d1f2edb20fbd1db1c0b2e2}
+      \strng{fullhash}{22f4a51b64d1f2edb20fbd1db1c0b2e2}
+      \strng{bibnamehash}{22f4a51b64d1f2edb20fbd1db1c0b2e2}
+      \strng{authorbibnamehash}{22f4a51b64d1f2edb20fbd1db1c0b2e2}
+      \strng{authornamehash}{22f4a51b64d1f2edb20fbd1db1c0b2e2}
+      \strng{authorfullhash}{22f4a51b64d1f2edb20fbd1db1c0b2e2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Information Sciences}
+      \field{title}{Integrated Data and Knowledge Driven Methodology for Human Activity Recognition}
+      \field{year}{2020}
+    \endentry
+    \entry{rule3}{article}{}
+      \name{author}{2}{}{%
+        {{hash=c51ae2ec384968e2dd1de1b3e0f71586}{%
+           family={Sharma},
+           familyi={S\bibinitperiod},
+           given={Chandra\bibnamedelima Mani},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=977c9f28fe68a0d379564265cf65244c}{%
+           family={Kushwaha},
+           familyi={K\bibinitperiod},
+           given={Alok},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{53d17513b8c279467b0a90b7ebfdadd8}
+      \strng{fullhash}{53d17513b8c279467b0a90b7ebfdadd8}
+      \strng{bibnamehash}{53d17513b8c279467b0a90b7ebfdadd8}
+      \strng{authorbibnamehash}{53d17513b8c279467b0a90b7ebfdadd8}
+      \strng{authornamehash}{53d17513b8c279467b0a90b7ebfdadd8}
+      \strng{authorfullhash}{53d17513b8c279467b0a90b7ebfdadd8}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Innovative Technology and Exploring Engineering}
+      \field{title}{Human Action Recognition using Rule based Fuzzy Motion Feature Templates}
+      \field{year}{2019}
+      \field{pages}{4695\bibrangedash 4700}
+      \range{pages}{6}
+    \endentry
+    \entry{rule4}{article}{}
+      \name{author}{3}{}{%
+        {{hash=949c0530f92a3986e2770ee92945b9e9}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Jisun},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c12eb651a13fe666deda6766ae3e7c22}{%
+           family={Jin},
+           familyi={J\bibinitperiod},
+           given={Yong},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=9458d304415594ab4f40d9eef4ab983a}{%
+           family={Cho},
+           familyi={C\bibinitperiod},
+           given={Seoungjae},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{ce719807b22b79b70d7ce881571b93b4}
+      \strng{fullhash}{ce719807b22b79b70d7ce881571b93b4}
+      \strng{bibnamehash}{ce719807b22b79b70d7ce881571b93b4}
+      \strng{authorbibnamehash}{ce719807b22b79b70d7ce881571b93b4}
+      \strng{authornamehash}{ce719807b22b79b70d7ce881571b93b4}
+      \strng{authorfullhash}{ce719807b22b79b70d7ce881571b93b4}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Symmetry}
+      \field{title}{Advanced Machine Learning for Gesture Learning and Recognition Based on Intelligent Big Data of Heterogeneous Sensors}
+      \field{year}{2019}
+      \field{pages}{929}
+      \range{pages}{1}
+    \endentry
+    \entry{form3}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d329e61ad0a83e5093124dfe5d05c8ef}{%
+           family={Ikizler},
+           familyi={I\bibinitperiod},
+           given={Nazli},
+           giveni={N\bibinitperiod}}}%
+        {{hash=226b858ec3972be7bde480e4960d07be}{%
+           family={Duygulu},
+           familyi={D\bibinitperiod},
+           given={Pinar},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{2d646c89d23dac6a8c6ad4ed234b0c0c}
+      \strng{fullhash}{2d646c89d23dac6a8c6ad4ed234b0c0c}
+      \strng{bibnamehash}{2d646c89d23dac6a8c6ad4ed234b0c0c}
+      \strng{authorbibnamehash}{2d646c89d23dac6a8c6ad4ed234b0c0c}
+      \strng{authornamehash}{2d646c89d23dac6a8c6ad4ed234b0c0c}
+      \strng{authorfullhash}{2d646c89d23dac6a8c6ad4ed234b0c0c}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Human Motion – Understanding, Modeling, Capture and Animation}
+      \field{title}{Human Action Recognition Using Distribution of Oriented Rectangular Patches}
+      \field{year}{2007}
+      \field{pages}{271\bibrangedash 284}
+      \range{pages}{14}
+    \endentry
+    \entry{form2}{article}{}
+      \name{author}{2}{}{%
+        {{hash=a84866b4900b3fe9a714de1f78dbf282}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yang},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=666c12517626c817b8d3a1ba792fc2c2}{%
+           family={Mori},
+           familyi={M\bibinitperiod},
+           given={Greg},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{c56f7f4be2a8438af0ece74a4b63cf94}
+      \strng{fullhash}{c56f7f4be2a8438af0ece74a4b63cf94}
+      \strng{bibnamehash}{c56f7f4be2a8438af0ece74a4b63cf94}
+      \strng{authorbibnamehash}{c56f7f4be2a8438af0ece74a4b63cf94}
+      \strng{authornamehash}{c56f7f4be2a8438af0ece74a4b63cf94}
+      \strng{authorfullhash}{c56f7f4be2a8438af0ece74a4b63cf94}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE transactions on pattern analysis and machine intelligence}
+      \field{title}{Hidden Part Models for Human Action Recognition: Probabilistic vs. Max-Margin.}
+      \field{year}{2010}
+    \endentry
+    \entry{form4}{article}{}
+      \name{author}{3}{}{%
+        {{hash=3a264730eab5b1bc9828e5dab46983d9}{%
+           family={Jung},
+           familyi={J\bibinitperiod},
+           given={Ho\bibnamedelima Yub},
+           giveni={H\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=4cd662c76d874697c24b63b2769bb242}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Soochahn},
+           giveni={S\bibinitperiod}}}%
+        {{hash=9050dde7fcf93439bd4d836dc0b2e3f9}{%
+           family={Heo},
+           familyi={H\bibinitperiod},
+           given={Yong\bibnamedelima Seok},
+           giveni={Y\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Public Library of Science}%
+      }
+      \strng{namehash}{913e540e586c995d899bd0babe02ab6d}
+      \strng{fullhash}{913e540e586c995d899bd0babe02ab6d}
+      \strng{bibnamehash}{913e540e586c995d899bd0babe02ab6d}
+      \strng{authorbibnamehash}{913e540e586c995d899bd0babe02ab6d}
+      \strng{authornamehash}{913e540e586c995d899bd0babe02ab6d}
+      \strng{authorfullhash}{913e540e586c995d899bd0babe02ab6d}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PLOS ONE}
+      \field{title}{Forest Walk Methods for Localizing Body Joints from Single Depth Image}
+      \field{year}{2015}
+      \field{number}{9}
+      \range{number}{1}
+      \field{pages}{1\bibrangedash 20}
+      \range{pages}{20}
+    \endentry
+    \entry{dataset1}{misc}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Режим доступа: \url{https://vc.ru/ml/464790-o-vazhnosti-dataseta-i-o-tom-kak-sdelat-ego-luchshe-nash-opyt} (Дата обращения: 07.04.2023)}
+      \field{title}{О важности датасета и о том, как сделать его лучше. Наш опыт [Электронный ресурс]}
+    \endentry
+    \entry{dataset2}{misc}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Режим доступа: \url{https://www.bigdataschool.ru/blog/dataset-data-preparation.html} (Дата обращения: 07.04.2023)}
+      \field{title}{Отберем то, что нужно Data Mining: как сформировать датасет для машинного обучения [Электронный ресурс]}
+    \endentry
+    \entry{sklearn}{misc}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Режим доступа: \url{https://scikit-learn.org/stable/} (Дата обращения: 17.04.2023)}
+      \field{title}{Scikit-learn [Электронный ресурс]}
+    \endentry
+    \entry{opencv}{misc}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Режим доступа: \url{https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html} (Дата обращения: 17.04.2023)}
+      \field{title}{OpenCV [Электронный ресурс]}
+    \endentry
+    \entry{flask}{misc}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Режим доступа: \url{https://flask-docs.readthedocs.io/en/latest/quickstart/} (Дата обращения: 17.04.2023)}
+      \field{title}{Flask [Электронный ресурс]}
+    \endentry
+    \entry{skimage}{misc}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Режим доступа: \url{https://scikit-image.org/} (Дата обращения: 17.04.2023)}
+      \field{title}{Scikit-image [Электронный ресурс]}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

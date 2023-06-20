@@ -1,0 +1,108 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {russian}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{РЕФЕРАТ}{5}{chapter*.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{ОБОЗНАЧЕНИЯ И СОКРАЩЕНИЯ}{8}{chapter*.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{ВВЕДЕНИЕ}{9}{chapter*.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Аналитический раздел}{11}{chapter.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Обзор областей применения методов распознавания физической активности человека}{11}{section.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.1}Безопасность}{11}{subsection.1.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.2}Медицина}{12}{subsection.1.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.3}Производство и образование}{12}{subsection.1.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Алгоритмы классификации}{13}{section.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.1}Метод Байеса}{13}{subsection.1.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.2}Метод опорных векторов}{14}{subsection.1.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.3}Метод k-ближайших соседей}{15}{subsection.1.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.4}Деревья решений}{17}{subsection.1.2.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.5}Метод случайного леса}{18}{subsection.1.2.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}Обзор алгоритмов детектирования объектов с помощью дескрипторов}{20}{section.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.1}Алгоритм SIFT (масштабно-инвариантное преобразование признаков)}{21}{subsection.1.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.2}Алгоритм SURF (ускоренная надежная функция)}{22}{subsection.1.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.3}Метод RIFF (Rotation Invariant Fast Features)}{23}{subsection.1.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.4}HOG (Гистограмма направленных градиентов)}{24}{subsection.1.3.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.4}Обзор методов распознавания действий человека}{26}{section.1.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.4.1}Пространственно-временной метод}{27}{subsection.1.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.4.2}Стохастический метод}{29}{subsection.1.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.4.3}Методы, основанные на правилах}{31}{subsection.1.4.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.4.4}Методы, основанные на форме}{32}{subsection.1.4.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.5}Сравнение методов}{33}{section.1.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.6}Выбор данных для обучения модели}{35}{section.1.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.6.1}Требования}{35}{subsection.1.6.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.6.2}Структура}{35}{subsection.1.6.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Конструкторский раздел}{37}{chapter.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Проектирование метода распознавания}{37}{section.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.1}IDEF0}{37}{subsection.2.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.2}Предобработка видеоролика}{39}{subsection.2.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.3}Формирование HOG дескриптора видео}{41}{subsection.2.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.4}Обучение модели}{43}{subsection.2.1.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Набор данных}{46}{section.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Технологический раздел}{48}{chapter.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Входные и выходные данные}{48}{section.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Выбор языка программирования}{48}{section.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Разработка ПО}{49}{section.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Требования к разрабатываемому ПО}{49}{subsubsection*.17}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.1}Модуль предобработки данных}{50}{subsection.3.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.2}Модуль формирования дескрипторов}{51}{subsection.3.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.3}Модуль обучения модели}{52}{subsection.3.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}Тестирование модели}{54}{section.3.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.5}Пользовательский интерфейс}{55}{section.3.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Исследовательский раздел}{59}{chapter.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Исследование метрик модели в зависимости от разметки данных}{59}{section.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Исследование результатов распознавания модели в зависимости от контрастности видео}{61}{section.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Исследование результатов распознавания модели в зависимости от качества видео}{62}{section.4.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.4}Выводы}{63}{section.4.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{ЗАКЛЮЧЕНИЕ}{64}{chapter*.28}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}{68}{chapter*.29}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{ПРИЛОЖЕНИЕ \numberline {\CYRA }}{69}{appendix.1.A}%
